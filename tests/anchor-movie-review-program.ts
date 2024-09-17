@@ -14,7 +14,7 @@ describe("anchor-movie-review-program", () => {
   const movie = {
     title: "Valroant",
     description: "Perfect!!!!",
-    rating: 10,
+    rating: 9,
   };
 
   const [moviePda] = anchor.web3.PublicKey.findProgramAddressSync(
